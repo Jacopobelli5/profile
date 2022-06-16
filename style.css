@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Poppins&display=swap');
+body{
+  background-color:#f9f3eb;
+  color: rgb(55, 55, 55);
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  background-color: white;
+  padding: 30px;
+  width: 700px;
+  margin: 48px auto;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgb(206, 206, 206);
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container{
+    background-color: white;
+    padding: 30px;
+    width: 700px;
+    margin: 48px auto;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgb(206, 206, 206);
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .container{
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+    margin: 48px auto;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgb(206, 206, 206);
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .container{
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    margin: 48px auto;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgb(206, 206, 206);
+    text-align: center;
+  }
+
+}
+
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-weight:bolder;
+  font-size: 34px;
+  margin: 0;
+
+}
+h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(65, 65, 65);
+
+}
+p{
+  margin: 17px 0px 40px;
+  font-size: 18px;
+}
+
+.btn{
+  text-decoration: none;
+  color:white;
+  background-color: #F0BE0D;
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 8px 16px;
+  box-shadow: 0px 5px 15px rgb(187, 187, 187);
+
+}
+
+.btn:hover{
+  background-color: #d6ab10;
+  color: white;
+}
+
+.profile-image{
+  background-size: cover;
+  background-position-x: 20% ;
+  margin: auto;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.list{
+  list-style: none;
+}
+
+.list li{
+  display: inline;
+}
+
+.item{
+  font-size: 32px;
+  padding: 4px;
+  margin-right: 30px;
+}
+
+a{
+  text-decoration: none;
+  color:#F0BE0D;
+}
+a:hover{
+  color: #d6ab10;
+}
